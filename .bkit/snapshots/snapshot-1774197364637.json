@@ -1,0 +1,219 @@
+{
+  "timestamp": "2026-03-22T16:36:04.634Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-22T16:27:29.935Z",
+    "activeFeatures": [
+      "entity",
+      "dto",
+      "repository",
+      "service",
+      "projects",
+      "ordinary",
+      "budget"
+    ],
+    "primaryFeature": "entity",
+    "features": {
+      "entity": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:18:41.091Z",
+          "lastUpdated": "2026-03-22T16:20:46.040Z"
+        },
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\entity\\Bprojm.java"
+      },
+      "dto": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:21:00.216Z",
+          "lastUpdated": "2026-03-22T16:22:10.881Z"
+        },
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\dto\\ProjectDto.java"
+      },
+      "repository": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:22:19.763Z",
+          "lastUpdated": "2026-03-22T16:22:19.763Z"
+        },
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\repository\\ProjectRepositoryImpl.java"
+      },
+      "service": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:22:27.764Z",
+          "lastUpdated": "2026-03-22T16:22:27.764Z"
+        },
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\service\\ProjectService.java"
+      },
+      "projects": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:22:35.665Z",
+          "lastUpdated": "2026-03-22T16:22:35.665Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\index.vue"
+      },
+      "ordinary": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:23:22.682Z",
+          "lastUpdated": "2026-03-22T16:25:19.771Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\ordinary\\form.vue"
+      },
+      "budget": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-22T16:27:24.815Z",
+          "lastUpdated": "2026-03-22T16:27:29.934Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\index.vue"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-09T13:12:46.648Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-03-22T16:27:29.935Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-22T16:18:41.091Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:20:09.575Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:20:46.040Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:21:00.216Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:21:09.099Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:21:24.656Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:21:38.919Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:21:53.731Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:22:10.881Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:22:19.763Z",
+        "feature": "repository",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:22:27.764Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:22:35.665Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:23:22.682Z",
+        "feature": "ordinary",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:25:19.771Z",
+        "feature": "ordinary",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:27:24.815Z",
+        "feature": "budget",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-22T16:27:29.934Z",
+        "feature": "budget",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

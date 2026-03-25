@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/gonna/.claude/plugins/cache/bkit-marketplace/bkit/1.6.0//**)"
+    ]
+  }
+}
