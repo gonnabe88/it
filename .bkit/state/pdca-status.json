@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
-  "lastUpdated": "2026-03-25T14:13:08.955Z",
+  "version": "3.0",
+  "lastUpdated": "2026-03-26T04:44:32.204Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -33,7 +33,24 @@
       "timestamps": {
         "started": "2026-03-25T00:00:00.000Z",
         "lastUpdated": "2026-03-25T01:00:00.000Z"
-      }
+      },
+      "stateMachine": {
+        "currentState": "design",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "entity": {
       "phase": "do",
@@ -46,7 +63,24 @@
         "started": "2026-03-22T16:18:41.091Z",
         "lastUpdated": "2026-03-25T14:02:52.641Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\entity\\CroleI.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\entity\\CroleI.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "dto": {
       "phase": "do",
@@ -59,7 +93,24 @@
         "started": "2026-03-22T16:21:00.216Z",
         "lastUpdated": "2026-03-25T14:05:18.916Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\dto\\AuthDto.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\dto\\AuthDto.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "repository": {
       "phase": "do",
@@ -72,7 +123,24 @@
         "started": "2026-03-22T16:22:19.763Z",
         "lastUpdated": "2026-03-25T14:03:07.630Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\repository\\CroleIRepository.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\repository\\CroleIRepository.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "service": {
       "phase": "do",
@@ -85,7 +153,24 @@
         "started": "2026-03-22T16:22:27.764Z",
         "lastUpdated": "2026-03-25T14:11:32.796Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\service\\ProjectService.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\service\\ProjectService.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "projects": {
       "phase": "do",
@@ -98,7 +183,24 @@
         "started": "2026-03-22T16:22:35.665Z",
         "lastUpdated": "2026-03-25T14:10:01.697Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\[id].vue"
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\[id].vue",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "ordinary": {
       "phase": "do",
@@ -111,7 +213,24 @@
         "started": "2026-03-22T16:23:22.682Z",
         "lastUpdated": "2026-03-22T16:25:19.771Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\ordinary\\form.vue"
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\ordinary\\form.vue",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "budget": {
       "phase": "do",
@@ -124,7 +243,24 @@
         "started": "2026-03-22T16:27:24.815Z",
         "lastUpdated": "2026-03-23T14:01:44.961Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\report.vue"
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\report.vue",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "composables": {
       "phase": "do",
@@ -137,7 +273,24 @@
         "started": "2026-03-23T13:48:41.884Z",
         "lastUpdated": "2026-03-25T14:09:46.728Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useProjects.ts"
+      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useProjects.ts",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "security": {
       "phase": "do",
@@ -150,7 +303,24 @@
         "started": "2026-03-25T14:03:34.530Z",
         "lastUpdated": "2026-03-25T14:04:33.728Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\security\\JwtAuthenticationFilter.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\security\\JwtAuthenticationFilter.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "util": {
       "phase": "do",
@@ -163,7 +333,24 @@
         "started": "2026-03-25T14:03:40.460Z",
         "lastUpdated": "2026-03-25T14:04:11.825Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\util\\JwtUtil.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\util\\JwtUtil.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "config": {
       "phase": "do",
@@ -176,7 +363,24 @@
         "started": "2026-03-25T14:05:28.603Z",
         "lastUpdated": "2026-03-25T14:05:28.603Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\config\\SecurityConfig.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\config\\SecurityConfig.java",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "it_frontend": {
       "phase": "do",
@@ -189,7 +393,24 @@
         "started": "2026-03-25T14:05:37.973Z",
         "lastUpdated": "2026-03-25T14:08:52.086Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\components\\AppSidebar.vue"
+      "lastFile": "C:\\it\\it_frontend\\app\\components\\AppSidebar.vue",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "stores": {
       "phase": "do",
@@ -202,7 +423,24 @@
         "started": "2026-03-25T14:05:52.817Z",
         "lastUpdated": "2026-03-25T14:13:08.955Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\tests\\unit\\stores\\auth.test.ts"
+      "lastFile": "C:\\it\\it_frontend\\tests\\unit\\stores\\auth.test.ts",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     },
     "middleware": {
       "phase": "do",
@@ -215,7 +453,24 @@
         "started": "2026-03-25T14:08:19.751Z",
         "lastUpdated": "2026-03-25T14:08:19.751Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\middleware\\auth.global.ts"
+      "lastFile": "C:\\it\\it_frontend\\app\\middleware\\auth.global.ts",
+      "stateMachine": {
+        "currentState": "do",
+        "previousState": null,
+        "stateHistory": [],
+        "retryCount": 0,
+        "maxRetries": 5,
+        "circuitBreakerOpen": false
+      },
+      "metrics": {
+        "qualityScore": null,
+        "conventionCompliance": null,
+        "apiCompliance": null,
+        "cycleTimeMs": null,
+        "iterationEfficiency": null
+      },
+      "phaseTimestamps": {},
+      "automationLevel": 2
     }
   },
   "pipeline": {
@@ -226,7 +481,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-25T14:13:08.955Z"
+    "lastActivity": "2026-03-26T04:44:32.204Z"
   },
   "history": [
     {
@@ -823,5 +1078,21 @@
       "phase": "do",
       "action": "updated"
     }
-  ]
+  ],
+  "stateMachine": {
+    "defaultWorkflow": "default",
+    "activeWorkflows": {},
+    "totalTransitions": 0
+  },
+  "automation": {
+    "globalLevel": 2,
+    "trustScore": 40,
+    "pendingApprovals": 0,
+    "lastGateResult": null
+  },
+  "team": {
+    "enabled": true,
+    "stateFile": ".bkit/runtime/agent-state.json",
+    "eventsFile": ".bkit/runtime/agent-events.jsonl"
+  }
 }
