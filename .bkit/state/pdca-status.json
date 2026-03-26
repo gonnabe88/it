@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-03-26T04:44:32.204Z",
+  "lastUpdated": "2026-03-26T14:39:37.232Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -16,7 +16,8 @@
     "config",
     "it_frontend",
     "stores",
-    "middleware"
+    "middleware",
+    "controller"
   ],
   "primaryFeature": "rbac",
   "features": {
@@ -61,9 +62,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:18:41.091Z",
-        "lastUpdated": "2026-03-25T14:02:52.641Z"
+        "lastUpdated": "2026-03-26T14:35:31.661Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\entity\\CroleI.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\iam\\entity\\CroleI.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -91,9 +92,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:21:00.216Z",
-        "lastUpdated": "2026-03-25T14:05:18.916Z"
+        "lastUpdated": "2026-03-26T14:37:36.932Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\dto\\AuthDto.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\iam\\dto\\OrganizationDto.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -121,9 +122,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:19.763Z",
-        "lastUpdated": "2026-03-25T14:03:07.630Z"
+        "lastUpdated": "2026-03-26T14:36:44.132Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\repository\\CroleIRepository.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\iam\\repository\\RoleRepository.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -151,9 +152,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-03-25T14:11:32.796Z"
+        "lastUpdated": "2026-03-26T14:39:37.232Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\service\\ProjectService.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\service\\CustomUserDetailsService.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -301,9 +302,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:03:34.530Z",
-        "lastUpdated": "2026-03-25T14:04:33.728Z"
+        "lastUpdated": "2026-03-26T14:08:02.431Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\security\\JwtAuthenticationFilter.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\security\\JwtAuthenticationFilter.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -331,9 +332,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:03:40.460Z",
-        "lastUpdated": "2026-03-25T14:04:11.825Z"
+        "lastUpdated": "2026-03-26T14:12:06.283Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\util\\JwtUtil.java",
+      "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\util\\JwtUtilTest.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -361,7 +362,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:28.603Z",
-        "lastUpdated": "2026-03-25T14:05:28.603Z"
+        "lastUpdated": "2026-03-26T14:11:40.359Z"
       },
       "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\config\\SecurityConfig.java",
       "stateMachine": {
@@ -471,6 +472,19 @@
       },
       "phaseTimestamps": {},
       "automationLevel": 2
+    },
+    "controller": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-26T14:11:18.832Z",
+        "lastUpdated": "2026-03-26T14:38:46.046Z"
+      },
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\iam\\controller\\OrganizationController.java"
     }
   },
   "pipeline": {
@@ -481,7 +495,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-26T04:44:32.204Z"
+    "lastActivity": "2026-03-26T14:39:37.232Z"
   },
   "history": [
     {
@@ -1075,6 +1089,294 @@
     {
       "timestamp": "2026-03-25T14:13:08.955Z",
       "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:05:22.213Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:05:37.517Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:05:57.700Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:06:08.145Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:06:37.534Z",
+      "feature": "security",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:07:25.736Z",
+      "feature": "security",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:08:02.431Z",
+      "feature": "security",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:08:34.097Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:08:50.713Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:09:10.591Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:09:28.885Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:10:31.409Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:18.832Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:32.083Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:36.309Z",
+      "feature": "config",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:40.359Z",
+      "feature": "config",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:45.274Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:48.794Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:11:55.033Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:12:00.579Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:12:06.283Z",
+      "feature": "util",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:13:48.059Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:14:32.661Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:34:34.990Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:34:57.601Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:35:11.279Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:35:20.574Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:35:31.661Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:35:44.900Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:36:00.385Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:36:18.685Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:36:27.921Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:36:33.023Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:36:44.132Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:37:18.373Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:37:36.932Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:38:01.432Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:38:14.029Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:38:30.113Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:38:46.046Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:38:58.656Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:03.515Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:09.313Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:12.940Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:24.589Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:29.190Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:33.496Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-26T14:39:37.232Z",
+      "feature": "service",
       "phase": "do",
       "action": "updated"
     }
