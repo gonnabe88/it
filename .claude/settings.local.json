@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/gonna/.claude/plugins/cache/bkit-marketplace/bkit/1.6.0//**)"
+      "Read(//c/Users/gonna/.claude/plugins/cache/bkit-marketplace/bkit/1.6.0//**)",
+      "Bash(MAIN=/c/it/it_backend/src/main/java/com/kdb/it __NEW_LINE_9d3b0a1515f68edf__ mv \"$MAIN/audit\" \"$MAIN/domain/audit\" mv \"$MAIN/cdp\" \"$MAIN/domain/cdp\" __NEW_LINE_9d3b0a1515f68edf__ echo \"완료\" find \"$MAIN\" -maxdepth 3 -type d)",
+      "Bash(ls /c/it/it_backend/*.xml /c/it/it_backend/mvnw* /c/it/it_backend/gradlew*)",
+      "Bash(./gradlew compileJava)"
     ]
   }
 }

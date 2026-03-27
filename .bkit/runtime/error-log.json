@@ -52,5 +52,14 @@
     "agentId": null,
     "agentType": null,
     "message": ""
+  },
+  {
+    "timestamp": "2026-03-27T08:23:09.461Z",
+    "errorType": "unknown",
+    "category": "unknown",
+    "severity": "low",
+    "agentId": "a70937a8a355d5b1c",
+    "agentType": "bkit:gap-detector",
+    "message": ""
   }
 ]
