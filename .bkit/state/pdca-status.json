@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-03-27T08:27:36.262Z",
+  "lastUpdated": "2026-03-28T15:18:53.621Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -19,7 +19,8 @@
     "middleware",
     "controller",
     "exception",
-    "table-refactoring"
+    "table-refactoring",
+    "plan"
   ],
   "primaryFeature": "rbac",
   "features": {
@@ -80,9 +81,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:18:41.091Z",
-        "lastUpdated": "2026-03-27T08:05:06.201Z"
+        "lastUpdated": "2026-03-28T06:03:55.458Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\entity\\Crtokm.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\entity\\Bplanm.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -110,9 +111,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:21:00.216Z",
-        "lastUpdated": "2026-03-27T08:26:35.246Z"
+        "lastUpdated": "2026-03-28T06:05:09.207Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\dto\\LoginHistoryDto.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\dto\\PlanDto.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -140,9 +141,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:19.763Z",
-        "lastUpdated": "2026-03-27T08:05:57.703Z"
+        "lastUpdated": "2026-03-28T06:04:13.400Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\repository\\RefreshTokenRepository.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\repository\\BprojaRepository.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -170,9 +171,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-03-27T08:26:18.161Z"
+        "lastUpdated": "2026-03-28T06:05:55.582Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\service\\AuthService.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\service\\PlanService.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -200,9 +201,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:35.665Z",
-        "lastUpdated": "2026-03-25T14:10:01.697Z"
+        "lastUpdated": "2026-03-28T15:18:53.621Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\[id].vue",
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\form.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -290,9 +291,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-23T13:48:41.884Z",
-        "lastUpdated": "2026-03-25T14:09:46.728Z"
+        "lastUpdated": "2026-03-28T14:48:22.695Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useProjects.ts",
+      "lastFile": "C:/it/it_frontend/app/composables/useProjects.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -410,7 +411,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:37.973Z",
-        "lastUpdated": "2026-03-25T14:08:52.086Z"
+        "lastUpdated": "2026-03-28T06:10:03.873Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\components\\AppSidebar.vue",
       "stateMachine": {
@@ -500,9 +501,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-26T14:11:18.832Z",
-        "lastUpdated": "2026-03-27T03:47:52.112Z"
+        "lastUpdated": "2026-03-28T06:18:09.367Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\budget\\project\\controller\\ProjectControllerTest.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\controller\\PlanController.java"
     },
     "exception": {
       "phase": "do",
@@ -524,6 +525,19 @@
       "startedAt": "2026-03-27T08:27:36.260Z",
       "archivedAt": "2026-03-27T09:00:00.000Z",
       "archivedTo": "docs/archive/2026-03/table-refactoring/"
+    },
+    "plan": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-28T06:07:43.841Z",
+        "lastUpdated": "2026-03-28T06:16:13.024Z"
+      },
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\plan\\form.vue"
     }
   },
   "pipeline": {
@@ -534,7 +548,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-27T08:27:36.262Z"
+    "lastActivity": "2026-03-28T15:18:53.621Z"
   },
   "history": [
     {
@@ -2149,6 +2163,450 @@
       "timestamp": "2026-03-27T08:27:36.261Z",
       "feature": "table-refactoring",
       "phase": "act",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T01:09:47.235Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:03:30.593Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:03:40.935Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:03:55.458Z",
+      "feature": "entity",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:04:05.741Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:04:13.400Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:05:09.207Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:05:55.582Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:06:27.243Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:07:03.259Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:07:43.841Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:08:59.757Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:09:47.283Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:10:03.873Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:15:00.405Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:15:14.651Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:15:49.056Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:16:02.705Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:16:13.024Z",
+      "feature": "plan",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:18:05.429Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T06:18:09.367Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T09:36:43.684Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T09:50:54.245Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T09:54:16.541Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T09:57:44.066Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T09:59:02.129Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:05:06.437Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:06:07.331Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:06:12.761Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:09:42.015Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:09:46.295Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T10:37:12.396Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:12:29.391Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:12:40.695Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:12:52.113Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:13:34.210Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:13:37.673Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:14:20.124Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:14:28.951Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:17:34.492Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:17:41.238Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:17:45.944Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:36:48.626Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:38:45.998Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:39:05.200Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:39:11.064Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:41:12.460Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T13:41:19.411Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:38:48.737Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:39:17.119Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:39:30.110Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:48:22.695Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:48:27.068Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:48:32.731Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:49:05.705Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:49:13.122Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:56:54.196Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T14:57:00.244Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:07.327Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:16.084Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:22.928Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:27.760Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:33.206Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:38.736Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:45.963Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:05:59.871Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:14:37.849Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:14:43.642Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:14:49.766Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:14:55.281Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:14:59.275Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:15:06.318Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:18:49.350Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-28T15:18:53.621Z",
+      "feature": "projects",
+      "phase": "do",
       "action": "updated"
     }
   ],
