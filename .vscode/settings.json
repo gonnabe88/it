@@ -1,3 +1,18 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.autobuild.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "files.exclude": {
+        "**/bin": true // vscode에서 build와 bin 영역 class가 충돌(already defined)나는 문제 해결
+    },
+    "editor.defaultFormatter": "redhat.java",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java", // 또는 google-java-format
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
 }

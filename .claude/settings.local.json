@@ -7,7 +7,26 @@
       "Bash(./gradlew compileJava)",
       "Bash(find /c/it/it_frontend/app/pages -name \"*.vue\" -exec basename {})",
       "Bash(find /c/it/it_backend/src/main/java/com/kdb/it/domain/budget/project -type f -name *.java)",
-      "Bash(npx nuxt:*)"
+      "Bash(npx nuxt:*)",
+      "Bash(git diff:*)",
+      "Bash(grep -n \"approvalBasisText\\\\|getApprovalAuthority\" /c/it/it_frontend/app/pages/info/projects/[id].vue)",
+      "Bash(xargs cat:*)",
+      "Bash(node -e \"const s = require\\(''''@primeuix/styles/cascadeselect''''\\); console.log\\(typeof s.style === ''''function'''' ? s.style\\(\\) : s.style\\)\")",
+      "Bash(find C:/it/it_frontend/node_modules/@primeuix/styles -name cascadeselect*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "WebFetch(domain:devtools.nuxt.com)",
+      "Bash(npm install:*)",
+      "Bash(find C:/it/it_frontend/node_modules -name package.json -path */@nuxt/devtools/package.json)",
+      "Bash(find /c/it/it_frontend/app/composables -name *.ts -type f)",
+      "Bash(grep -r IconField /c/it/it_frontend/app/pages --include=*.vue)",
+      "Bash(grep -r resource-table /it/it_frontend --include=*.vue --include=*.ts --include=*.tsx)",
+      "Bash(grep -r \"BudgetTableActions\\\\|TableActions\" /c/it/it_frontend/app --include=*.vue)",
+      "Bash(xargs grep:*)",
+      "Bash(find /it/it_frontend -type f -name *.vue)",
+      "Bash(node:*)"
     ]
   }
 }
