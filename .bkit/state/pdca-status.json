@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-03-29T23:23:18.525Z",
+  "lastUpdated": "2026-03-30T10:02:34.061Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -413,9 +413,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:37.973Z",
-        "lastUpdated": "2026-03-29T23:23:18.515Z"
+        "lastUpdated": "2026-03-30T10:02:34.061Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\nuxt.config.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\components\\TiptapEditor.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -563,7 +563,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-29T14:56:13.805Z",
-        "lastUpdated": "2026-03-29T23:09:21.382Z"
+        "lastUpdated": "2026-03-30T07:13:22.038Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\components\\extensions\\tiptap-extensions.ts"
     }
@@ -576,7 +576,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-29T23:23:18.525Z"
+    "lastActivity": "2026-03-30T10:02:34.061Z"
   },
   "history": [
     {
@@ -3767,6 +3767,84 @@
     },
     {
       "timestamp": "2026-03-29T23:23:18.524Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T04:47:50.885Z",
+      "feature": "extensions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T05:02:48.043Z",
+      "feature": "extensions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T06:40:45.595Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T07:02:59.421Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T07:13:11.691Z",
+      "feature": "extensions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T07:13:22.038Z",
+      "feature": "extensions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T07:41:51.963Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T09:16:07.132Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T09:16:30.850Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T09:32:23.145Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T09:42:55.879Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T10:02:26.049Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T10:02:34.061Z",
       "feature": "it_frontend",
       "phase": "do",
       "action": "updated"
