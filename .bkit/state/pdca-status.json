@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-03-30T16:51:15.176Z",
+  "lastUpdated": "2026-03-30T22:57:20.211Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -413,9 +413,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:37.973Z",
-        "lastUpdated": "2026-03-30T16:43:16.605Z"
+        "lastUpdated": "2026-03-30T22:56:27.575Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\components\\BlockMathNodeView.vue",
+      "lastFile": "/c/it/it_frontend/app/components/TiptapToolbar.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -550,9 +550,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-29T12:29:05.352Z",
-        "lastUpdated": "2026-03-29T22:57:08.775Z"
+        "lastUpdated": "2026-03-30T22:57:20.205Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\pages\\guide\\index.vue"
+      "lastFile": "/c/it/it_frontend/app/pages/guide/index.vue"
     },
     "extensions": {
       "phase": "do",
@@ -576,7 +576,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-30T16:51:15.176Z"
+    "lastActivity": "2026-03-30T22:57:20.211Z"
   },
   "history": [
     {
@@ -3894,6 +3894,60 @@
     {
       "timestamp": "2026-03-30T16:51:15.175Z",
       "feature": "util",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:53:36.061Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:00.695Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:21.949Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:27.581Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:33.177Z",
+      "feature": "guide",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:39.078Z",
+      "feature": "guide",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:51.436Z",
+      "feature": "guide",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:56:57.507Z",
+      "feature": "guide",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-30T22:57:20.210Z",
+      "feature": "guide",
       "phase": "do",
       "action": "updated"
     }

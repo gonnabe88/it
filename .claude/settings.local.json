@@ -26,7 +26,12 @@
       "Bash(grep -r \"BudgetTableActions\\\\|TableActions\" /c/it/it_frontend/app --include=*.vue)",
       "Bash(xargs grep:*)",
       "Bash(find /it/it_frontend -type f -name *.vue)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(grep -E \"\\\\.\\(vue|ts|js|css|scss|json\\)$\")",
+      "Bash(find /c/it/it_frontend /c/it/it_backend -name *.vue -newer /c/it/.git/refs/heads/main -type f)",
+      "Bash(find C:/it/it_frontend C:/it/it_backend -name *.vue -newer C:/it/docs/02-design/features/guide-editor-enhancement.design.md -type f)",
+      "Bash(git -C /c/it log --oneline --all -- \"it_frontend/**/*.vue\" \"it_frontend/**/*.ts\")",
+      "Bash(find /c/it/it_frontend/app -name *.vue -newer /c/it/docs/01-plan/features/guide-editor-enhancement.plan.md)"
     ]
   }
 }

@@ -150,5 +150,13 @@
     "feature": null,
     "phase": null,
     "progress": null
+  },
+  {
+    "sessionId": "91cfd586-1bd1-4581-b529-aaf168c1d859",
+    "reason": "prompt_input_exit",
+    "endedAt": "2026-03-30T22:37:53.150Z",
+    "feature": null,
+    "phase": null,
+    "progress": null
   }
 ]
