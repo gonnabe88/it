@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-29T10:55:13.211Z",
+  "timestamp": "2026-03-31T22:35:38.728Z",
   "reason": "compaction",
   "status": {
     "version": "3.0",
-    "lastUpdated": "2026-03-29T10:54:48.176Z",
+    "lastUpdated": "2026-03-31T22:31:40.863Z",
     "activeFeatures": [
       "rbac",
       "entity",
@@ -23,7 +23,11 @@
       "controller",
       "exception",
       "table-refactoring",
-      "plan"
+      "plan",
+      "guide",
+      "extensions",
+      "layouts",
+      "admin"
     ],
     "primaryFeature": "rbac",
     "features": {
@@ -84,9 +88,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:18:41.091Z",
-          "lastUpdated": "2026-03-29T05:06:13.418Z"
+          "lastUpdated": "2026-03-31T22:26:46.201Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\project\\entity\\Bprojm.java",
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\iam\\entity\\CorgnI.java",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -114,9 +118,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:21:00.216Z",
-          "lastUpdated": "2026-03-29T05:23:40.039Z"
+          "lastUpdated": "2026-03-31T15:31:30.148Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\project\\dto\\ProjectDto.java",
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\dto\\AdminDto.java",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -144,9 +148,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:22:19.763Z",
-          "lastUpdated": "2026-03-28T06:04:13.400Z"
+          "lastUpdated": "2026-03-31T22:27:08.208Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\repository\\BprojaRepository.java",
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\system\\repository\\LoginHistoryRepository.java",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -174,9 +178,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:22:27.764Z",
-          "lastUpdated": "2026-03-29T00:44:57.257Z"
+          "lastUpdated": "2026-03-31T22:27:55.622Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\project\\service\\ProjectService.java",
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\service\\AdminService.java",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -204,9 +208,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:22:35.665Z",
-          "lastUpdated": "2026-03-29T10:54:48.176Z"
+          "lastUpdated": "2026-03-31T14:38:08.978Z"
         },
-        "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\form.vue",
+        "lastFile": "C:/it/it_frontend/app/pages/info/projects/form.vue",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -234,7 +238,7 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:23:22.682Z",
-          "lastUpdated": "2026-03-29T10:52:52.820Z"
+          "lastUpdated": "2026-03-29T11:17:24.677Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\ordinary\\form.vue",
         "stateMachine": {
@@ -264,9 +268,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-22T16:27:24.815Z",
-          "lastUpdated": "2026-03-29T10:14:13.182Z"
+          "lastUpdated": "2026-03-29T11:28:52.597Z"
         },
-        "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\approval.vue",
+        "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\list.vue",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -294,9 +298,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-23T13:48:41.884Z",
-          "lastUpdated": "2026-03-29T10:48:16.864Z"
+          "lastUpdated": "2026-03-31T22:28:41.917Z"
         },
-        "lastFile": "C:\\it\\it_frontend\\app\\composables\\useProjectOptions.ts",
+        "lastFile": "C:\\it\\it_frontend\\app\\composables\\useAdminApi.ts",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -354,9 +358,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-25T14:03:40.460Z",
-          "lastUpdated": "2026-03-27T03:49:26.674Z"
+          "lastUpdated": "2026-03-30T16:51:15.170Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\common\\util\\CustomPasswordEncoderTest.java",
+        "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\common\\util\\HtmlSanitizerTest.java",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -414,7 +418,7 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-25T14:05:37.973Z",
-          "lastUpdated": "2026-03-29T09:46:27.195Z"
+          "lastUpdated": "2026-03-31T15:58:16.380Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\components\\AppHeader.vue",
         "stateMachine": {
@@ -474,9 +478,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-25T14:08:19.751Z",
-          "lastUpdated": "2026-03-25T14:08:19.751Z"
+          "lastUpdated": "2026-03-31T16:07:36.476Z"
         },
-        "lastFile": "C:\\it\\it_frontend\\app\\middleware\\auth.global.ts",
+        "lastFile": "C:\\it\\it_frontend\\app\\middleware\\admin.ts",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -504,9 +508,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-26T14:11:18.832Z",
-          "lastUpdated": "2026-03-28T06:18:09.367Z"
+          "lastUpdated": "2026-03-31T22:28:19.220Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\controller\\PlanController.java"
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\controller\\AdminController.java"
       },
       "exception": {
         "phase": "do",
@@ -517,9 +521,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-26T23:08:16.133Z",
-          "lastUpdated": "2026-03-26T23:08:16.133Z"
+          "lastUpdated": "2026-03-29T23:03:47.486Z"
         },
-        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\exception\\CustomGeneralException.java"
+        "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\exception\\GlobalExceptionHandler.java"
       },
       "table-refactoring": {
         "phase": "archived",
@@ -541,6 +545,58 @@
           "lastUpdated": "2026-03-28T06:16:13.024Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\plan\\form.vue"
+      },
+      "guide": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-29T12:29:05.352Z",
+          "lastUpdated": "2026-03-30T22:57:20.205Z"
+        },
+        "lastFile": "/c/it/it_frontend/app/pages/guide/index.vue"
+      },
+      "extensions": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-29T14:56:13.805Z",
+          "lastUpdated": "2026-03-30T07:13:22.038Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\components\\extensions\\tiptap-extensions.ts"
+      },
+      "layouts": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-31T15:32:51.798Z",
+          "lastUpdated": "2026-03-31T15:58:51.896Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\layouts\\admin.vue"
+      },
+      "admin": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-31T15:34:01.976Z",
+          "lastUpdated": "2026-03-31T22:31:40.857Z"
+        },
+        "lastFile": "C:\\it\\it_frontend\\app\\pages\\admin\\login-history.vue"
       }
     },
     "pipeline": {
@@ -551,7 +607,7 @@
     "session": {
       "startedAt": "2026-03-09T13:12:46.648Z",
       "onboardingCompleted": false,
-      "lastActivity": "2026-03-29T10:54:48.176Z"
+      "lastActivity": "2026-03-31T22:31:40.863Z"
     },
     "history": [
       {
@@ -3155,6 +3211,1140 @@
       {
         "timestamp": "2026-03-29T10:54:48.176Z",
         "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T10:57:12.132Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T10:59:14.619Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T10:59:18.332Z",
+        "feature": "ordinary",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:13:09.730Z",
+        "feature": "ordinary",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:16:48.742Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:17:00.225Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:17:08.989Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:17:24.677Z",
+        "feature": "ordinary",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:28:28.185Z",
+        "feature": "budget",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:28:35.420Z",
+        "feature": "budget",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:28:52.597Z",
+        "feature": "budget",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T11:29:02.654Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T12:29:05.352Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T12:29:35.073Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T12:33:41.028Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:54:23.864Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:54:34.829Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:54:42.144Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:54:53.418Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:56:13.805Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T14:57:57.774Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:01:37.922Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:01:42.459Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:02:38.339Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:03:12.178Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:04:30.588Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:04:44.515Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:07:42.675Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:08:05.271Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:13:31.401Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:13:40.129Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:45:52.193Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:46:19.033Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:46:31.631Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:46:38.907Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:53:10.042Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:53:32.329Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:53:47.490Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:54:06.148Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:56:04.926Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:56:12.446Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T15:56:22.829Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:23:00.301Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:23:12.893Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:23:24.758Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:23:34.520Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:23:55.344Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:24:18.603Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:24:30.840Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:24:48.723Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:24:58.294Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:25:01.662Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:25:24.513Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:25:31.675Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:41:32.697Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:41:45.156Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:42:43.717Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:01.359Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:08.113Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:15.230Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:22.303Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:31.661Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:43:48.715Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:44:02.160Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:44:25.964Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:44:31.235Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:44:46.061Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:45:01.066Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:45:10.293Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:45:29.241Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:45:38.504Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:45:46.643Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:46:01.375Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:46:08.118Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:46:14.073Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:46:23.443Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:46:56.061Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:56:33.357Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:56:53.972Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:57:04.924Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T22:57:08.784Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:00:08.786Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:03:38.174Z",
+        "feature": "exception",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:03:47.493Z",
+        "feature": "exception",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:08:37.307Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:08:56.927Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:09:21.386Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:09:46.155Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:10:03.177Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:10:13.771Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:10:28.526Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:10:50.519Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:11:00.384Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:11:06.191Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:16:37.030Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:16:41.821Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:16:51.625Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-29T23:23:18.524Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T04:47:50.885Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T05:02:48.043Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T06:40:45.595Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T07:02:59.421Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T07:13:11.691Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T07:13:22.038Z",
+        "feature": "extensions",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T07:41:51.963Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T09:16:07.132Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T09:16:30.850Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T09:32:23.145Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T09:42:55.879Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:02:26.049Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:02:34.061Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T15:26:51.777Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T15:26:57.368Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:42:40.264Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:43:16.613Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:49:00.118Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:49:27.066Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:49:36.727Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T16:51:15.175Z",
+        "feature": "util",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:53:36.061Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:00.695Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:21.949Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:27.581Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:33.177Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:39.078Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:51.436Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:56:57.507Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T22:57:20.210Z",
+        "feature": "guide",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:35:50.570Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:36:15.894Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:36:33.053Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:36:39.951Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:36:45.601Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:00.311Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:05.749Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:12.672Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:27.393Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:40.642Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:37:58.528Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T14:38:08.983Z",
+        "feature": "projects",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:31:30.152Z",
+        "feature": "dto",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:31:59.433Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:32:20.825Z",
+        "feature": "controller",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:32:31.995Z",
+        "feature": "middleware",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:32:51.802Z",
+        "feature": "layouts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:33:09.191Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:34:01.980Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:36:59.767Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:37:06.952Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:37:16.974Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:37:23.026Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:37:34.727Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:37:45.011Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:05.568Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:16.386Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:26.110Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:31.418Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:40.256Z",
+        "feature": "layouts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T15:58:51.903Z",
+        "feature": "layouts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T16:07:36.484Z",
+        "feature": "middleware",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T16:15:50.722Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:15:23.090Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:15:47.200Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:15:58.283Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:16:05.089Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:16:42.279Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:16:55.209Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:17:13.867Z",
+        "feature": "controller",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:17:38.855Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:18:19.708Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:18:54.782Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:19:31.461Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:26:46.205Z",
+        "feature": "entity",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:26:52.956Z",
+        "feature": "repository",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:27:08.212Z",
+        "feature": "repository",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:27:20.566Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:27:26.507Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:27:55.626Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:28:04.547Z",
+        "feature": "controller",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:28:19.224Z",
+        "feature": "controller",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:28:30.414Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:28:41.921Z",
+        "feature": "composables",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:29:23.906Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:29:48.971Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:30:04.953Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:30:20.150Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:30:43.971Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:30:57.709Z",
+        "feature": "admin",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-31T22:31:40.863Z",
+        "feature": "admin",
         "phase": "do",
         "action": "updated"
       }
