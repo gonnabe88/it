@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-03-31T14:38:08.984Z",
+  "lastUpdated": "2026-03-31T16:15:50.723Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -22,7 +22,9 @@
     "table-refactoring",
     "plan",
     "guide",
-    "extensions"
+    "extensions",
+    "layouts",
+    "admin"
   ],
   "primaryFeature": "rbac",
   "features": {
@@ -113,9 +115,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:21:00.216Z",
-        "lastUpdated": "2026-03-31T14:37:12.667Z"
+        "lastUpdated": "2026-03-31T15:31:30.148Z"
       },
-      "lastFile": "C:/it/it_backend/src/main/java/com/kdb/it/domain/budget/project/dto/ProjectDto.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\dto\\AdminDto.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -173,9 +175,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-03-31T14:37:27.388Z"
+        "lastUpdated": "2026-03-31T15:31:59.430Z"
       },
-      "lastFile": "C:/it/it_backend/src/main/java/com/kdb/it/domain/budget/project/service/ProjectService.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\service\\AdminService.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -293,9 +295,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-23T13:48:41.884Z",
-        "lastUpdated": "2026-03-31T14:37:58.523Z"
+        "lastUpdated": "2026-03-31T16:15:50.717Z"
       },
-      "lastFile": "C:/it/it_frontend/app/composables/usePdfReport.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useAdminApi.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -413,9 +415,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:37.973Z",
-        "lastUpdated": "2026-03-30T22:56:27.575Z"
+        "lastUpdated": "2026-03-31T15:58:16.380Z"
       },
-      "lastFile": "/c/it/it_frontend/app/components/TiptapToolbar.vue",
+      "lastFile": "C:\\it\\it_frontend\\app\\components\\AppHeader.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -473,9 +475,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:08:19.751Z",
-        "lastUpdated": "2026-03-25T14:08:19.751Z"
+        "lastUpdated": "2026-03-31T16:07:36.476Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\middleware\\auth.global.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\middleware\\admin.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -503,9 +505,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-26T14:11:18.832Z",
-        "lastUpdated": "2026-03-28T06:18:09.367Z"
+        "lastUpdated": "2026-03-31T15:32:20.818Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\controller\\PlanController.java"
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\controller\\AdminController.java"
     },
     "exception": {
       "phase": "do",
@@ -566,6 +568,32 @@
         "lastUpdated": "2026-03-30T07:13:22.038Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\components\\extensions\\tiptap-extensions.ts"
+    },
+    "layouts": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-31T15:32:51.798Z",
+        "lastUpdated": "2026-03-31T15:58:51.896Z"
+      },
+      "lastFile": "C:\\it\\it_frontend\\app\\layouts\\admin.vue"
+    },
+    "admin": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-31T15:34:01.976Z",
+        "lastUpdated": "2026-03-31T15:58:31.411Z"
+      },
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\admin\\index.vue"
     }
   },
   "pipeline": {
@@ -576,7 +604,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-03-31T14:38:08.984Z"
+    "lastActivity": "2026-03-31T16:15:50.723Z"
   },
   "history": [
     {
@@ -4020,6 +4048,132 @@
     {
       "timestamp": "2026-03-31T14:38:08.983Z",
       "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:31:30.152Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:31:59.433Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:32:20.825Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:32:31.995Z",
+      "feature": "middleware",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:32:51.802Z",
+      "feature": "layouts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:33:09.191Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:34:01.980Z",
+      "feature": "admin",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:36:59.767Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:37:06.952Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:37:16.974Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:37:23.026Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:37:34.727Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:37:45.011Z",
+      "feature": "admin",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:05.568Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:16.386Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:26.110Z",
+      "feature": "admin",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:31.418Z",
+      "feature": "admin",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:40.256Z",
+      "feature": "layouts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T15:58:51.903Z",
+      "feature": "layouts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T16:07:36.484Z",
+      "feature": "middleware",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-31T16:15:50.722Z",
+      "feature": "composables",
       "phase": "do",
       "action": "updated"
     }
