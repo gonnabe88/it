@@ -31,7 +31,13 @@
       "Bash(find /c/it/it_frontend /c/it/it_backend -name *.vue -newer /c/it/.git/refs/heads/main -type f)",
       "Bash(find C:/it/it_frontend C:/it/it_backend -name *.vue -newer C:/it/docs/02-design/features/guide-editor-enhancement.design.md -type f)",
       "Bash(git -C /c/it log --oneline --all -- \"it_frontend/**/*.vue\" \"it_frontend/**/*.ts\")",
-      "Bash(find /c/it/it_frontend/app -name *.vue -newer /c/it/docs/01-plan/features/guide-editor-enhancement.plan.md)"
+      "Bash(find /c/it/it_frontend/app -name *.vue -newer /c/it/docs/01-plan/features/guide-editor-enhancement.plan.md)",
+      "Bash(grep -v \"\\\\.bkit\\\\|\\\\.json$\")",
+      "Bash(grep -E \"\\\\.\\(vue|ts|js|py|java\\)$\")",
+      "Bash(grep -E \"\\\\.\\(vue|ts|js|py|java|sql\\)$\")",
+      "Bash(find /c/it/it_frontend/src /c/it/it_backend -newer /c/it/.bkit/state/memory.json -name *.vue -o -name *.ts -o -name *.py)",
+      "Bash(grep -E \"\\\\.\\(vue|ts|js|py\\)$\")",
+      "Bash(find /c/it/it_backend -name Admin*.java -o -name *admin*.java)"
     ]
   }
 }
