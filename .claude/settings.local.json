@@ -37,7 +37,9 @@
       "Bash(grep -E \"\\\\.\\(vue|ts|js|py|java|sql\\)$\")",
       "Bash(find /c/it/it_frontend/src /c/it/it_backend -newer /c/it/.bkit/state/memory.json -name *.vue -o -name *.ts -o -name *.py)",
       "Bash(grep -E \"\\\\.\\(vue|ts|js|py\\)$\")",
-      "Bash(find /c/it/it_backend -name Admin*.java -o -name *admin*.java)"
+      "Bash(find /c/it/it_backend -name Admin*.java -o -name *admin*.java)",
+      "Bash(ls \"C:/it/it_frontend/node_modules/@excalidraw/excalidraw/\"*.css)",
+      "Bash(ls \"C:/it/it_frontend/node_modules/@excalidraw/excalidraw/dist/\"*.css)"
     ]
   }
 }
