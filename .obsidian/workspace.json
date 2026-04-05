@@ -185,6 +185,7 @@
   },
   "active": "eb8facf47b2a2c95",
   "lastOpenFiles": [
+    "it_database/EXPDAT.DMP",
     "it_backend/build/classes/java/main/com/kdb/it/domain/budget/cost/dto/CostDto$Response.class",
     "it_backend/build/classes/java/main/com/kdb/it/domain/budget/cost/dto/CostDto$UpdateRequest.class",
     "it_backend/build/classes/java/main/com/kdb/it/domain/budget/cost/dto/CostDto$CreateRequest.class",
@@ -195,7 +196,6 @@
     "it_backend/build/tmp/compileJava/compileTransaction/stash-dir/CostRepositoryCustom.class.uniqueId5",
     "it_backend/build/tmp/compileJava/compileTransaction/stash-dir/CostController.class.uniqueId4",
     "it_backend/build/tmp/compileJava/compileTransaction/stash-dir/CostDto$Response.class.uniqueId3",
-    "it_backend/build/tmp/compileJava/compileTransaction/stash-dir/CostRepository.class.uniqueId2",
     "PRD_20260404(2).md",
     "PRD_20260404(3).md",
     "PRD_20260404.md",
