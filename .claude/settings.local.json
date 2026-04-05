@@ -39,7 +39,11 @@
       "Bash(grep -E \"\\\\.\\(vue|ts|js|py\\)$\")",
       "Bash(find /c/it/it_backend -name Admin*.java -o -name *admin*.java)",
       "Bash(ls \"C:/it/it_frontend/node_modules/@excalidraw/excalidraw/\"*.css)",
-      "Bash(ls \"C:/it/it_frontend/node_modules/@excalidraw/excalidraw/dist/\"*.css)"
+      "Bash(ls \"C:/it/it_frontend/node_modules/@excalidraw/excalidraw/dist/\"*.css)",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c ':*)",
+      "Bash(python:*)",
+      "Bash(./gradlew build:*)"
     ]
   }
 }
