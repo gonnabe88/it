@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-05T16:10:20.723Z",
+  "lastUpdated": "2026-04-05T22:16:05.167Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -178,7 +178,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-04-05T16:10:20.716Z"
+        "lastUpdated": "2026-04-05T22:16:05.159Z"
       },
       "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\cost\\service\\CostService.java",
       "stateMachine": {
@@ -298,9 +298,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-23T13:48:41.884Z",
-        "lastUpdated": "2026-04-05T11:49:00.073Z"
+        "lastUpdated": "2026-04-05T22:10:16.572Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useCost.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useEmployeeSearch.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -620,9 +620,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-04T01:13:27.309Z",
-        "lastUpdated": "2026-04-05T16:07:04.964Z"
+        "lastUpdated": "2026-04-05T22:15:18.780Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\components\\cost\\TerminalTableSection.vue"
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\cost\\form.vue"
     },
     "plugins": {
       "phase": "do",
@@ -646,7 +646,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-05T16:10:20.723Z"
+    "lastActivity": "2026-04-05T22:16:05.167Z"
   },
   "history": [
     {
@@ -8895,6 +8895,186 @@
     },
     {
       "timestamp": "2026-04-05T16:10:20.722Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:10:16.578Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:10:30.180Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:10:37.480Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:10:45.749Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:03.080Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:09.530Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:19.407Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:27.477Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:34.059Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:11:54.949Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:12:08.243Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:12:19.715Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:12:30.883Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:12:40.861Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:12:52.935Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:00.981Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:09.140Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:26.439Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:32.106Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:40.225Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:45.568Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:13:53.987Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:14:01.940Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:14:18.747Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:14:33.150Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:15:01.249Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:15:18.788Z",
+      "feature": "cost",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:15:51.570Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:15:59.094Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-05T22:16:05.166Z",
       "feature": "service",
       "phase": "do",
       "action": "updated"
