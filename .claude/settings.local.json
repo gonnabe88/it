@@ -47,7 +47,10 @@
       "Bash(xargs ls:*)",
       "Bash(npm test:*)",
       "Bash(./gradlew compileTestJava)",
-      "Bash(./gradlew test:*)"
+      "Bash(./gradlew test:*)",
+      "Bash(ls /c/it/it_frontend/.eslint* /c/it/it_frontend/eslint*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k: d.get\\(k\\) for k in ['scripts','devDependencies','dependencies']}, indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(npm run:*)"
     ]
   }
 }

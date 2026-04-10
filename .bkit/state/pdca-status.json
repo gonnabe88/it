@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-10T14:34:34.638Z",
+  "lastUpdated": "2026-04-10T14:51:30.706Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -30,7 +30,9 @@
     "plugins",
     "review",
     "[id]",
-    "documents"
+    "documents",
+    "prepare",
+    "feasibility"
   ],
   "primaryFeature": "rbac",
   "features": {
@@ -211,9 +213,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:35.665Z",
-        "lastUpdated": "2026-04-10T12:52:33.206Z"
+        "lastUpdated": "2026-04-10T14:49:23.729Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\components\\projects\\ResourceTableSection.vue",
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\projects\\form.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -271,7 +273,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:27:24.815Z",
-        "lastUpdated": "2026-04-10T13:35:00.931Z"
+        "lastUpdated": "2026-04-10T14:51:20.397Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\pages\\budget\\list.vue",
       "stateMachine": {
@@ -301,9 +303,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-23T13:48:41.884Z",
-        "lastUpdated": "2026-04-10T14:28:25.797Z"
+        "lastUpdated": "2026-04-10T14:51:30.702Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\tests\\unit\\composables\\useDateRangeValidation.test.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useCouncil.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -421,9 +423,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:37.973Z",
-        "lastUpdated": "2026-04-10T13:59:28.852Z"
+        "lastUpdated": "2026-04-10T14:50:43.685Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\utils\\common.ts",
+      "lastFile": "C:\\it\\it_frontend\\app\\components\\TiptapEditor.vue",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -636,9 +638,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-04T12:11:40.860Z",
-        "lastUpdated": "2026-04-04T12:15:01.637Z"
+        "lastUpdated": "2026-04-10T14:48:20.026Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\plugins\\excalidraw-css.client.ts"
+      "lastFile": "C:\\it\\it_frontend\\app\\plugins\\router-error.client.ts"
     },
     "review": {
       "phase": "do",
@@ -678,6 +680,32 @@
         "lastUpdated": "2026-04-08T13:59:31.838Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\documents\\index.vue"
+    },
+    "prepare": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T14:49:20.346Z",
+        "lastUpdated": "2026-04-10T14:49:20.346Z"
+      },
+      "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\council-request\\prepare\\[id].vue"
+    },
+    "feasibility": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T14:50:48.418Z",
+        "lastUpdated": "2026-04-10T14:50:52.391Z"
+      },
+      "lastFile": "C:\\it\\it_frontend\\app\\components\\council\\feasibility\\FeasibilityPerformance.vue"
     }
   },
   "pipeline": {
@@ -688,7 +716,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-10T14:34:34.638Z"
+    "lastActivity": "2026-04-10T14:51:30.706Z"
   },
   "history": [
     {
@@ -10474,6 +10502,84 @@
     {
       "timestamp": "2026-04-10T14:34:34.637Z",
       "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:44:57.370Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:48:20.030Z",
+      "feature": "plugins",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:49:13.008Z",
+      "feature": "budget",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:49:20.351Z",
+      "feature": "prepare",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:49:23.732Z",
+      "feature": "projects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:50:43.691Z",
+      "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:50:48.421Z",
+      "feature": "feasibility",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:50:52.395Z",
+      "feature": "feasibility",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:50:56.404Z",
+      "feature": "budget",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:51:12.630Z",
+      "feature": "budget",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:51:20.400Z",
+      "feature": "budget",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:51:25.378Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:51:30.705Z",
+      "feature": "composables",
       "phase": "do",
       "action": "updated"
     }
