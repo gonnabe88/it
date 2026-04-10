@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-10T13:59:28.856Z",
+  "lastUpdated": "2026-04-10T14:34:34.638Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -181,9 +181,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-04-10T13:10:55.288Z"
+        "lastUpdated": "2026-04-10T14:34:34.633Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\cost\\service\\CostService.java",
+      "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\domain\\budget\\project\\service\\ProjectServiceTest.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -301,9 +301,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-23T13:48:41.884Z",
-        "lastUpdated": "2026-04-10T13:56:50.459Z"
+        "lastUpdated": "2026-04-10T14:28:25.797Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\composables\\useProjectOptions.ts",
+      "lastFile": "C:\\it\\it_frontend\\tests\\unit\\composables\\useDateRangeValidation.test.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -451,9 +451,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-25T14:05:52.817Z",
-        "lastUpdated": "2026-04-10T13:54:38.769Z"
+        "lastUpdated": "2026-04-10T14:26:35.607Z"
       },
-      "lastFile": "C:\\it\\it_frontend\\app\\stores\\review.ts",
+      "lastFile": "C:\\it\\it_frontend\\tests\\unit\\stores\\review.test.ts",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -511,9 +511,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-26T14:11:18.832Z",
-        "lastUpdated": "2026-04-10T13:56:43.805Z"
+        "lastUpdated": "2026-04-10T14:24:28.127Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\common\\admin\\controller\\AdminController.java"
+      "lastFile": "C:\\it\\it_backend\\src\\test\\java\\com\\kdb\\it\\common\\admin\\controller\\AdminControllerTest.java"
     },
     "exception": {
       "phase": "do",
@@ -688,7 +688,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-10T13:59:28.856Z"
+    "lastActivity": "2026-04-10T14:34:34.638Z"
   },
   "history": [
     {
@@ -10378,6 +10378,102 @@
     {
       "timestamp": "2026-04-10T13:59:28.855Z",
       "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:23:32.581Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:23:57.515Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:24:03.280Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:24:28.130Z",
+      "feature": "controller",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:24:58.507Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:25:31.013Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:26:35.611Z",
+      "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:27:23.943Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:28:19.698Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:28:25.800Z",
+      "feature": "composables",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:30:11.692Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:30:16.029Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:30:21.510Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:34:26.386Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:34:31.157Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T14:34:34.637Z",
+      "feature": "service",
       "phase": "do",
       "action": "updated"
     }

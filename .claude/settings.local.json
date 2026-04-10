@@ -44,7 +44,10 @@
       "Bash(python -c ':*)",
       "Bash(python:*)",
       "Bash(./gradlew build:*)",
-      "Bash(xargs ls:*)"
+      "Bash(xargs ls:*)",
+      "Bash(npm test:*)",
+      "Bash(./gradlew compileTestJava)",
+      "Bash(./gradlew test:*)"
     ]
   }
 }
