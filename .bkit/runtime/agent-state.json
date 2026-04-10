@@ -1,25 +1,14 @@
 {
   "version": "1.0",
-  "enabled": true,
+  "enabled": false,
   "teamName": "",
   "feature": "rbac",
   "pdcaPhase": "design",
   "orchestrationPattern": "leader",
   "ctoAgent": "opus",
   "startedAt": "2026-04-10T14:54:04.799Z",
-  "lastUpdated": "2026-04-10T14:55:04.112Z",
-  "teammates": [
-    {
-      "name": "acb2125fc91b03ad0",
-      "role": "Explore",
-      "model": "sonnet",
-      "status": "completed",
-      "currentTask": null,
-      "taskId": null,
-      "startedAt": "2026-04-10T14:54:04.803Z",
-      "lastActivityAt": "2026-04-10T14:55:04.107Z"
-    }
-  ],
+  "lastUpdated": "2026-04-10T15:00:26.759Z",
+  "teammates": [],
   "progress": {
     "totalTasks": 0,
     "completedTasks": 0,
