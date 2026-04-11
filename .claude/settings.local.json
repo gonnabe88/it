@@ -50,7 +50,13 @@
       "Bash(./gradlew test:*)",
       "Bash(ls /c/it/it_frontend/.eslint* /c/it/it_frontend/eslint*)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k: d.get\\(k\\) for k in ['scripts','devDependencies','dependencies']}, indent=2, ensure_ascii=False\\)\\)\")",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(./gradlew compileJava -x test)",
+      "Bash(head -842 list.vue)",
+      "Bash(tail -n +1062 list.vue)",
+      "Bash(mv list.vue.tmp list.vue)",
+      "Bash(head -897 list.vue)",
+      "Bash(tail -n +1057 list.vue)"
     ]
   }
 }
