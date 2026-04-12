@@ -64,7 +64,9 @@
       "Bash(where python:*)",
       "Bash(where python3:*)",
       "Bash(pip list:*)",
-      "Bash(./gradlew compileJava --no-daemon)"
+      "Bash(./gradlew compileJava --no-daemon)",
+      "Bash(git diff-tree:*)",
+      "Bash(grep -E '\\\\.\\(java|vue|ts|js|jsx|tsx|kt|py\\)$')"
     ]
   }
 }
