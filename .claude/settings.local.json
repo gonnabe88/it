@@ -56,7 +56,15 @@
       "Bash(tail -n +1062 list.vue)",
       "Bash(mv list.vue.tmp list.vue)",
       "Bash(head -897 list.vue)",
-      "Bash(tail -n +1057 list.vue)"
+      "Bash(tail -n +1057 list.vue)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(where sqlplus:*)",
+      "Bash(where sql:*)",
+      "Bash(where sqlcl:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(pip list:*)",
+      "Bash(./gradlew compileJava --no-daemon)"
     ]
   }
 }
