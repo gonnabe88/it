@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-13T13:57:46.355Z",
+  "lastUpdated": "2026-04-14T09:38:06.146Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -125,9 +125,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:21:00.216Z",
-        "lastUpdated": "2026-04-13T12:49:49.171Z"
+        "lastUpdated": "2026-04-14T09:38:00.823Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\plan\\dto\\PlanDto.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\project\\dto\\ProjectDto.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -155,9 +155,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:19.763Z",
-        "lastUpdated": "2026-04-12T14:20:08.364Z"
+        "lastUpdated": "2026-04-14T09:24:31.798Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\status\\repository\\BudgetStatusQueryRepositoryImpl.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\council\\repository\\CouncilRepository.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -185,9 +185,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-03-22T16:22:27.764Z",
-        "lastUpdated": "2026-04-13T13:43:26.233Z"
+        "lastUpdated": "2026-04-14T09:38:06.145Z"
       },
-      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\work\\service\\BudgetWorkService.java",
+      "lastFile": "C:\\it\\it_backend\\src\\main\\java\\com\\kdb\\it\\domain\\budget\\project\\service\\ProjectService.java",
       "stateMachine": {
         "currentState": "do",
         "previousState": null,
@@ -744,7 +744,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-13T13:57:46.355Z"
+    "lastActivity": "2026-04-14T09:38:06.146Z"
   },
   "history": [
     {
@@ -13320,6 +13320,66 @@
     {
       "timestamp": "2026-04-13T13:57:46.354Z",
       "feature": "it_frontend",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T08:56:56.741Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T08:57:27.692Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:22:56.157Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:24:31.798Z",
+      "feature": "repository",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:24:35.326Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:24:40.701Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:28:43.253Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:37:20.609Z",
+      "feature": "service",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:38:00.823Z",
+      "feature": "dto",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-14T09:38:06.145Z",
+      "feature": "service",
       "phase": "do",
       "action": "updated"
     }
