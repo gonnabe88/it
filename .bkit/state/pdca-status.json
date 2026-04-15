@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "lastUpdated": "2026-04-14T09:38:06.146Z",
+  "lastUpdated": "2026-04-15T15:14:56.185Z",
   "activeFeatures": [
     "rbac",
     "entity",
@@ -34,7 +34,8 @@
     "prepare",
     "feasibility",
     "approval",
-    "icons"
+    "icons",
+    "budget-enhancement-0414 Gap Analysis"
   ],
   "primaryFeature": "rbac",
   "features": {
@@ -734,6 +735,14 @@
         "lastUpdated": "2026-04-11T16:58:12.425Z"
       },
       "lastFile": "C:\\it\\it_frontend\\app\\components\\icons\\IconCrown.vue"
+    },
+    "budget-enhancement-0414 Gap Analysis": {
+      "phase": "archived",
+      "matchRate": 100,
+      "iterationCount": 1,
+      "startedAt": "2026-04-15T15:14:56.176Z",
+      "archivedAt": "2026-04-16T00:00:00.000Z",
+      "archivedTo": "docs/archive/2026-04/budget-enhancement-0414/"
     }
   },
   "pipeline": {
@@ -744,7 +753,7 @@
   "session": {
     "startedAt": "2026-03-09T13:12:46.648Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-14T09:38:06.146Z"
+    "lastActivity": "2026-04-15T15:14:56.185Z"
   },
   "history": [
     {
@@ -13381,6 +13390,12 @@
       "timestamp": "2026-04-14T09:38:06.145Z",
       "feature": "service",
       "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T15:14:56.183Z",
+      "feature": "budget-enhancement-0414 Gap Analysis",
+      "phase": "act",
       "action": "updated"
     }
   ],
