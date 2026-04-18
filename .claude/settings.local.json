@@ -67,7 +67,9 @@
       "Bash(./gradlew compileJava --no-daemon)",
       "Bash(git diff-tree:*)",
       "Bash(grep -E '\\\\.\\(java|vue|ts|js|jsx|tsx|kt|py\\)$')",
-      "Bash(./gradlew clean:*)"
+      "Bash(./gradlew clean:*)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
