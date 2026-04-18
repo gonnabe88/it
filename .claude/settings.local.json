@@ -81,7 +81,12 @@
       "Bash(python3 fix_any.py)",
       "Bash(npx vitest *)",
       "Bash(git *)",
-      "Skill(gstack)"
+      "Skill(gstack)",
+      "Bash(mkdir -p C:/it/.claude/agents)",
+      "Bash(mkdir -p C:/it/.claude/skills/it-portal)",
+      "Bash(npm uninstall *)",
+      "Bash(grep -r \"from 'xlsx'\" app/)",
+      "Bash(grep '\"xlsx\"' package.json)"
     ]
   }
 }

@@ -89,3 +89,20 @@ Key routing rules:
 - lint: cd it_frontend && npx eslint .
 - test-frontend: cd it_frontend && npx vitest run
 - test-backend: cd it_backend && ./gradlew test
+
+## 하네스: IT Portal 에이전트 팀
+
+**목표:** 백엔드(Spring Boot 4) + 프론트(Nuxt 4) + 보안(RBAC) + QA를 에이전트 팀으로 분담하여 end-to-end 구현
+
+**트리거:** 새 기능 개발, API/UI 구현, RBAC 설계·검증, QA 실행 요청 시 `it-portal` 스킬을 사용하라.
+
+**에이전트 목록:**
+- `.claude/agents/backend-dev.md` — Spring Boot API
+- `.claude/agents/frontend-dev.md` — Nuxt 4 UI
+- `.claude/agents/security-rbac.md` — RBAC 설계·검증
+- `.claude/agents/qa-reviewer.md` — QA + 코드리뷰
+
+**변경 이력:**
+| 날짜 | 변경 내용 | 대상 | 사유 |
+|------|----------|------|------|
+| 2026-04-19 | 초기 구성 | 전체 | IT Portal 도메인 전용 에이전트 팀 구축 |
