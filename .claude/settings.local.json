@@ -69,7 +69,19 @@
       "Bash(grep -E '\\\\.\\(java|vue|ts|js|jsx|tsx|kt|py\\)$')",
       "Bash(./gradlew clean:*)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(npx eslint *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(grep -v \"^$\")",
+      "Bash(grep \"^C:\\\\\\\\\")",
+      "Bash(cd /c/it/it_frontend npx eslint . --format json)",
+      "Bash(grep -E \"^C:|\\\\.vue$|\\\\.ts$|\\\\.mjs$\")",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(git checkout *)",
+      "Bash(python3 fix_any.py)",
+      "Bash(npx vitest *)",
+      "Bash(git *)",
+      "Skill(gstack)"
     ]
   }
 }
