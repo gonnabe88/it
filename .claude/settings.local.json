@@ -87,7 +87,8 @@
       "Bash(npm uninstall *)",
       "Bash(grep -r \"from 'xlsx'\" app/)",
       "Bash(grep '\"xlsx\"' package.json)",
-      "WebFetch(domain:app.snyk.io)"
+      "WebFetch(domain:app.snyk.io)",
+      "Bash(./gradlew dependencies *)"
     ]
   }
 }
