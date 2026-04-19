@@ -86,7 +86,8 @@
       "Bash(mkdir -p C:/it/.claude/skills/it-portal)",
       "Bash(npm uninstall *)",
       "Bash(grep -r \"from 'xlsx'\" app/)",
-      "Bash(grep '\"xlsx\"' package.json)"
+      "Bash(grep '\"xlsx\"' package.json)",
+      "WebFetch(domain:app.snyk.io)"
     ]
   }
 }
