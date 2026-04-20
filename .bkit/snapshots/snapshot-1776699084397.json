@@ -1,11 +1,10 @@
 {
-  "timestamp": "2026-04-18T08:25:19.553Z",
+  "timestamp": "2026-04-20T15:31:24.394Z",
   "reason": "compaction",
   "status": {
     "version": "3.0",
-    "lastUpdated": "2026-04-18T00:42:45.433Z",
+    "lastUpdated": "2026-04-18T09:44:13.384Z",
     "activeFeatures": [
-      "rbac",
       "entity",
       "dto",
       "repository",
@@ -40,7 +39,7 @@
       "icons",
       "budget-enhancement-0414 Gap Analysis"
     ],
-    "primaryFeature": "rbac",
+    "primaryFeature": "entity",
     "features": {
       "domain-refactor": {
         "phase": "completed",
@@ -57,38 +56,6 @@
           "lastUpdated": "2026-03-27T04:00:00.000Z",
           "completed": "2026-03-27T04:00:00.000Z"
         }
-      },
-      "rbac": {
-        "phase": "design",
-        "phaseNumber": 2,
-        "matchRate": null,
-        "iterationCount": 0,
-        "requirements": [],
-        "documents": {
-          "plan": "docs/01-plan/features/rbac.plan.md",
-          "design": "docs/02-design/features/rbac.design.md"
-        },
-        "timestamps": {
-          "started": "2026-03-25T00:00:00.000Z",
-          "lastUpdated": "2026-03-25T01:00:00.000Z"
-        },
-        "stateMachine": {
-          "currentState": "design",
-          "previousState": null,
-          "stateHistory": [],
-          "retryCount": 0,
-          "maxRetries": 5,
-          "circuitBreakerOpen": false
-        },
-        "metrics": {
-          "qualityScore": null,
-          "conventionCompliance": null,
-          "apiCompliance": null,
-          "cycleTimeMs": null,
-          "iterationEfficiency": null
-        },
-        "phaseTimestamps": {},
-        "automationLevel": 2
       },
       "entity": {
         "phase": "do",
@@ -429,7 +396,7 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-25T14:05:37.973Z",
-          "lastUpdated": "2026-04-18T00:42:45.427Z"
+          "lastUpdated": "2026-04-18T09:25:44.881Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\components\\common\\InlineEditCell.vue",
         "stateMachine": {
@@ -631,7 +598,7 @@
         "documents": {},
         "timestamps": {
           "started": "2026-04-04T01:13:27.309Z",
-          "lastUpdated": "2026-04-18T00:21:38.741Z"
+          "lastUpdated": "2026-04-18T09:44:13.378Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\cost\\index.vue"
       },
@@ -756,7 +723,7 @@
     "session": {
       "startedAt": "2026-03-09T13:12:46.648Z",
       "onboardingCompleted": false,
-      "lastActivity": "2026-04-18T00:42:45.433Z"
+      "lastActivity": "2026-04-18T09:44:13.384Z"
     },
     "history": [
       {
@@ -13500,6 +13467,150 @@
       {
         "timestamp": "2026-04-18T00:42:45.432Z",
         "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T08:27:16.495Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:15:42.465Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:15:50.897Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:20:20.895Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:20:31.866Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:22:32.524Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:22:53.077Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:23:07.156Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:24:40.245Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:25:44.887Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:33:35.191Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:33:41.976Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:34:06.552Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:34:36.449Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:39:10.311Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:39:13.736Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:00.771Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:20.001Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:27.552Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:41.532Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:45.753Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:50.391Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:44:01.127Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:44:13.383Z",
+        "feature": "cost",
         "phase": "do",
         "action": "updated"
       }

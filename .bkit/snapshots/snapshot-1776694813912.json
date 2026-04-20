@@ -1,11 +1,10 @@
 {
-  "timestamp": "2026-04-15T15:21:54.914Z",
+  "timestamp": "2026-04-20T14:20:13.909Z",
   "reason": "compaction",
   "status": {
     "version": "3.0",
-    "lastUpdated": "2026-04-15T15:14:56.185Z",
+    "lastUpdated": "2026-04-18T09:44:13.384Z",
     "activeFeatures": [
-      "rbac",
       "entity",
       "dto",
       "repository",
@@ -40,7 +39,7 @@
       "icons",
       "budget-enhancement-0414 Gap Analysis"
     ],
-    "primaryFeature": "rbac",
+    "primaryFeature": "entity",
     "features": {
       "domain-refactor": {
         "phase": "completed",
@@ -57,38 +56,6 @@
           "lastUpdated": "2026-03-27T04:00:00.000Z",
           "completed": "2026-03-27T04:00:00.000Z"
         }
-      },
-      "rbac": {
-        "phase": "design",
-        "phaseNumber": 2,
-        "matchRate": null,
-        "iterationCount": 0,
-        "requirements": [],
-        "documents": {
-          "plan": "docs/01-plan/features/rbac.plan.md",
-          "design": "docs/02-design/features/rbac.design.md"
-        },
-        "timestamps": {
-          "started": "2026-03-25T00:00:00.000Z",
-          "lastUpdated": "2026-03-25T01:00:00.000Z"
-        },
-        "stateMachine": {
-          "currentState": "design",
-          "previousState": null,
-          "stateHistory": [],
-          "retryCount": 0,
-          "maxRetries": 5,
-          "circuitBreakerOpen": false
-        },
-        "metrics": {
-          "qualityScore": null,
-          "conventionCompliance": null,
-          "apiCompliance": null,
-          "cycleTimeMs": null,
-          "iterationEfficiency": null
-        },
-        "phaseTimestamps": {},
-        "automationLevel": 2
       },
       "entity": {
         "phase": "do",
@@ -429,9 +396,9 @@
         "documents": {},
         "timestamps": {
           "started": "2026-03-25T14:05:37.973Z",
-          "lastUpdated": "2026-04-13T13:57:46.346Z"
+          "lastUpdated": "2026-04-18T09:25:44.881Z"
         },
-        "lastFile": "C:\\it\\it_frontend\\app\\components\\AppHeader.vue",
+        "lastFile": "C:\\it\\it_frontend\\app\\components\\common\\InlineEditCell.vue",
         "stateMachine": {
           "currentState": "do",
           "previousState": null,
@@ -631,7 +598,7 @@
         "documents": {},
         "timestamps": {
           "started": "2026-04-04T01:13:27.309Z",
-          "lastUpdated": "2026-04-11T10:19:30.800Z"
+          "lastUpdated": "2026-04-18T09:44:13.378Z"
         },
         "lastFile": "C:\\it\\it_frontend\\app\\pages\\info\\cost\\index.vue"
       },
@@ -740,18 +707,12 @@
         "lastFile": "C:\\it\\it_frontend\\app\\components\\icons\\IconCrown.vue"
       },
       "budget-enhancement-0414 Gap Analysis": {
-        "phase": "act",
-        "phaseNumber": 5,
-        "matchRate": null,
-        "iterationCount": 0,
-        "requirements": [],
-        "documents": {},
-        "timestamps": {
-          "started": "2026-04-15T15:14:56.176Z",
-          "lastUpdated": "2026-04-15T15:14:56.177Z"
-        },
-        "previousPhase": "check",
-        "autoAdvanced": true
+        "phase": "archived",
+        "matchRate": 100,
+        "iterationCount": 1,
+        "startedAt": "2026-04-15T15:14:56.176Z",
+        "archivedAt": "2026-04-16T00:00:00.000Z",
+        "archivedTo": "docs/archive/2026-04/budget-enhancement-0414/"
       }
     },
     "pipeline": {
@@ -762,7 +723,7 @@
     "session": {
       "startedAt": "2026-03-09T13:12:46.648Z",
       "onboardingCompleted": false,
-      "lastActivity": "2026-04-15T15:14:56.185Z"
+      "lastActivity": "2026-04-18T09:44:13.384Z"
     },
     "history": [
       {
@@ -13405,6 +13366,252 @@
         "timestamp": "2026-04-15T15:14:56.183Z",
         "feature": "budget-enhancement-0414 Gap Analysis",
         "phase": "act",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:00:25.378Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:00:46.617Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:00:56.592Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:01:04.381Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:01:17.964Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:05:17.687Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:11:40.092Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:11:48.071Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:20:00.191Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:20:12.660Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:20:22.870Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:20:38.337Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:20:55.123Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:21:38.745Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:28:33.890Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:42:30.044Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T00:42:45.432Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T08:27:16.495Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:15:42.465Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:15:50.897Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:20:20.895Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:20:31.866Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:22:32.524Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:22:53.077Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:23:07.156Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:24:40.245Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:25:44.887Z",
+        "feature": "it_frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:33:35.191Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:33:41.976Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:34:06.552Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:34:36.449Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:39:10.311Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:39:13.736Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:00.771Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:20.001Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:42:27.552Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:41.532Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:45.753Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:43:50.391Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:44:01.127Z",
+        "feature": "cost",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-18T09:44:13.383Z",
+        "feature": "cost",
+        "phase": "do",
         "action": "updated"
       }
     ],

@@ -89,7 +89,8 @@
       "Bash(grep '\"xlsx\"' package.json)",
       "WebFetch(domain:app.snyk.io)",
       "Bash(./gradlew dependencies *)",
-      "Bash(./gradlew compileJava --quiet)"
+      "Bash(./gradlew compileJava --quiet)",
+      "Bash(tee /tmp/tc.log)"
     ]
   }
 }
