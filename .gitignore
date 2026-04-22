@@ -6,3 +6,4 @@ it_database
 .gstack/
 everything-claude-code/
 .worktrees/
+.playwright-mcp/
