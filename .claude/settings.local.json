@@ -104,7 +104,39 @@
       "Bash(./gradlew bootRun --quiet)",
       "Bash(echo \"Backend starting in background \\(PID: $!\\)\")",
       "Bash(grep -E \"\\\\.\\(vue|ts|js\\)$\")",
-      "Bash(./gradlew compileJava -q)"
+      "Bash(./gradlew compileJava -q)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/actuator/health)",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "Bash(unzip -l \"테스트 요구사항.hwpx\")",
+      "Bash(mkdir -p /tmp/hwpx_check)",
+      "Read(//tmp/**)",
+      "Bash(rm -f ./* ./*/*)",
+      "Bash(unzip -q -o \"/c/it/테스트 요구사항.hwpx\")",
+      "Bash(mkdir -p /tmp/hwpx_check2)",
+      "Bash(unzip -l \"/c/it/테스트 요구사항.hwpx\")",
+      "Bash(mkdir -p /tmp/hwpx_check3)",
+      "Bash(xxd \"/c/it/테스트 요구사항.hwpx\")",
+      "Bash(mkdir -p /tmp/hwpx_sample)",
+      "Bash(rm -f ./* ./*/* ./*/*/*)",
+      "Bash(unzip -q -o \"/c/it/sample.hwpx\")",
+      "Bash(unzip -l \"/c/it/sample.hwpx\")",
+      "Bash(mkdir -p /tmp/hwpx_line)",
+      "Bash(unzip -q -o \"/c/it/사전협의 테스트.hwpx\")",
+      "Bash(grep -A 1 \"DEFAULT_LINESEG =$\\\\|const DEFAULT_LINESEG\" /c/it/it_frontend/app/utils/hwpx.ts)",
+      "Bash(mkdir -p /tmp/hwpx_img)",
+      "Bash(xxd BinData/image1.png)",
+      "Bash(mkdir -p /tmp/hwpx_err)",
+      "Bash(mkdir -p /tmp/hwpx_err2)",
+      "Bash(mkdir -p /c/tmp/hwpx_exc)",
+      "Bash(rm -f /c/tmp/hwpx_exc/* /c/tmp/hwpx_exc/*/*)",
+      "Read(//c/tmp/**)",
+      "Bash(unzip -l \"/c/it/사전협의 테스트.hwpx\")",
+      "Bash(xxd /c/tmp/hwpx_exc/BinData/image1.png)",
+      "Bash(npx tsc *)"
     ]
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true
   }
 }
