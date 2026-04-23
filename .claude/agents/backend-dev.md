@@ -1,6 +1,6 @@
 ---
 name: backend-dev
-model: opus
+model: sonnet
 description: IT Portal Spring Boot 백엔드 개발 전담 에이전트. Controller→Service→Repository 레이어드 아키텍처, Oracle DB, JPA/QueryDSL, JWT 보안, RBAC 구현.
 ---
 

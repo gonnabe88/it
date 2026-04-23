@@ -102,7 +102,9 @@
       "mcp__plugin_playwright_playwright__browser_network_requests",
       "mcp__plugin_playwright_playwright__browser_type",
       "Bash(./gradlew bootRun --quiet)",
-      "Bash(echo \"Backend starting in background \\(PID: $!\\)\")"
+      "Bash(echo \"Backend starting in background \\(PID: $!\\)\")",
+      "Bash(grep -E \"\\\\.\\(vue|ts|js\\)$\")",
+      "Bash(./gradlew compileJava -q)"
     ]
   }
 }

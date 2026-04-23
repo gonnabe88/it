@@ -96,5 +96,4 @@
 
 ## 6. 참고
 
-- 명명 참조 테이블: `TAAABB_BRMSGM` (사전협의)
 - 연관 문서 테이블: `TAAABB_BRDOCM` (요구사항 정의서, 복합키: `DOC_MNG_NO + DOC_VRS`)

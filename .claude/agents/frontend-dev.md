@@ -1,6 +1,6 @@
 ---
 name: frontend-dev
-model: opus
+model: sonnet
 description: IT Portal Nuxt 4 프론트엔드 개발 전담 에이전트. PrimeVue + Tailwind, Pinia, TypeScript, RBAC 미들웨어, useApiFetch/$apiFetch 패턴 준수.
 ---
 
