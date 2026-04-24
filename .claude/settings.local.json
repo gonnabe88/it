@@ -133,7 +133,10 @@
       "Read(//c/tmp/**)",
       "Bash(unzip -l \"/c/it/사전협의 테스트.hwpx\")",
       "Bash(xxd /c/tmp/hwpx_exc/BinData/image1.png)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Skill(it-portal)",
+      "Bash(C:/Users/gonna/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/scripts/start-server.sh *)",
+      "Bash(bash *)"
     ]
   },
   "enabledPlugins": {
