@@ -136,7 +136,11 @@
       "Bash(npx tsc *)",
       "Skill(it-portal)",
       "Bash(C:/Users/gonna/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/scripts/start-server.sh *)",
-      "Bash(bash *)"
+      "Bash(bash *)",
+      "Bash(awk -F'\"' '{sum+=$2} END {print \"Total tests:\", sum}')",
+      "Bash(awk '{s+=$1} END{print s \" tests total\"}')",
+      "Bash(grep -E \"\\(pages|components\\)$\")",
+      "mcp__plugin_everything-claude-code_playwright__browser_navigate"
     ]
   },
   "enabledPlugins": {

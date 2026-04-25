@@ -1,11 +1,10 @@
 {
-  "timestamp": "2026-04-18T16:39:11.101Z",
+  "timestamp": "2026-04-25T10:37:35.705Z",
   "reason": "compaction",
   "status": {
     "version": "3.0",
     "lastUpdated": "2026-04-18T09:44:13.384Z",
     "activeFeatures": [
-      "rbac",
       "entity",
       "dto",
       "repository",
@@ -40,7 +39,7 @@
       "icons",
       "budget-enhancement-0414 Gap Analysis"
     ],
-    "primaryFeature": "rbac",
+    "primaryFeature": "entity",
     "features": {
       "domain-refactor": {
         "phase": "completed",
@@ -57,38 +56,6 @@
           "lastUpdated": "2026-03-27T04:00:00.000Z",
           "completed": "2026-03-27T04:00:00.000Z"
         }
-      },
-      "rbac": {
-        "phase": "design",
-        "phaseNumber": 2,
-        "matchRate": null,
-        "iterationCount": 0,
-        "requirements": [],
-        "documents": {
-          "plan": "docs/01-plan/features/rbac.plan.md",
-          "design": "docs/02-design/features/rbac.design.md"
-        },
-        "timestamps": {
-          "started": "2026-03-25T00:00:00.000Z",
-          "lastUpdated": "2026-03-25T01:00:00.000Z"
-        },
-        "stateMachine": {
-          "currentState": "design",
-          "previousState": null,
-          "stateHistory": [],
-          "retryCount": 0,
-          "maxRetries": 5,
-          "circuitBreakerOpen": false
-        },
-        "metrics": {
-          "qualityScore": null,
-          "conventionCompliance": null,
-          "apiCompliance": null,
-          "cycleTimeMs": null,
-          "iterationEfficiency": null
-        },
-        "phaseTimestamps": {},
-        "automationLevel": 2
       },
       "entity": {
         "phase": "do",
